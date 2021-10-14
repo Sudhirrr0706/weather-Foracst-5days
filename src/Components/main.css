@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+.current-Details-section{
+    border-radius: 20px;
+    background-color:rgba(162, 160, 165, 0.212);
+    backdrop-filter: blur(20px);
+   
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Fauna One', serif;
+}
+.custom-search-button{
+    color: #fff;
+    text-align: center;
+}
+.custom-search-button:focus, .custom-moreButton:focus{
+    box-shadow: none;
+}
+.current-details{
+    font-family: 'Fauna One', serif;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.feelsLike{
+    font-size: 16px;
+}
+.temp{
+    font-family: 'Rampart One', cursive;
+    font-weight: 600;
+}
+.custom-moreButton,.custom-search-button{
+    transition: 0.5s;
+    border-color: #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.custom-moreButton:hover, .custom-search-button:hover{
+    background-color:#fff;
+    color: #111;
+}
+.custom-input{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #303D70;
+}
+.custom-input:focus{
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    border-color: none;
+    border-bottom: 2px solid #303D70;
+}
+.customWindIcon{
+    color: #fff;
+}
+
+
+ @media only screen and (max-width:769px){
+    .current-Details-section{
+        border-radius: 0;
+    }
+    .current-details{
+        font-size: 16px;
+    }
+    .feelsLike{
+        font-size: 14px;
+    }
+} 

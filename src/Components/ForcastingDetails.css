@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fauna+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+.Weather-card{
+    background-color:rgba(162, 160, 165, 0.212);
+    backdrop-filter: blur(5px);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    transition: 0.3s ease-in;
+    
+}
+
+.detailSection::-webkit-scrollbar {
+    height: 3px;
+    border-radius: 50px;
+  }
+.detailSection::-webkit-scrollbar-track {
+    border-radius: 50px;
+  }
+
+.detailSection::-webkit-scrollbar-thumb {
+    background: #fff; 
+    border-radius: 20px;
+  }
+
+.Weather-card:hover{
+    filter: drop-shadow(1px 2px 5px #e5e1e7);
+  
+}
+
+.detailSection{
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    font-family: 'Fauna One', serif;
+    font-size: 15px;
+    color: #fff;
+}
+.temperature{
+    font-family: 'Rampart One', cursive;
+    font-size: 18px;
+}
+ @media only screen and (max-width:769px){
+
+    .detailSection::-webkit-scrollbar {
+        height: 0;
+        background-color: transparent;
+        border-radius: none;
+      }
+    .detailSection::-webkit-scrollbar-track {
+       background-color: transparent;
+        border-radius: 0;
+      }
+    
+    .detailSection::-webkit-scrollbar-thumb {
+        background-color: transparent; 
+        border-radius: 0;
+      }
+
+} 
